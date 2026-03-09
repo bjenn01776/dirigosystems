@@ -1,0 +1,37 @@
+/*************************************/
+/*******  Nav Bar  *******************/
+/*************************************/
+
+nav {
+    display: block;
+    background-color: gray;
+    width:         100%;
+    height:       2.4em;
+    margin-inline: .2em;
+    padding-top:   .2em;
+}
+
+nav ul {
+    display: flex;
+    justify-content: flex-end;
+    column-gap:   12px;
+    margin-right: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+nav li {
+    list-style: none;
+    color:white;
+}
+
+nav li:hover {
+    background-color: antiquewhite;
+    color: gray;
+}
+
+nav a {
+    font-size: 1.6em;
+    text-decoration: none;
+    color: white;
+}
